@@ -1,0 +1,26 @@
+{
+  "name": "mern-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon ./start.js",
+    "watch": "nodemon ./start.js --ignose public"
+  },
+  "author": "Tanner Gaucher",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "dotenv": "^6.1.0",
+    "es6-promisify": "^6.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
